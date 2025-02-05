@@ -5,7 +5,7 @@ const taskList = document.getElementById('taskList');
 const searchInput = document.getElementById('searchInput');
 
 let tasks = [];
-
+//pradeep
 if (localStorage.getItem('tasks')) {
     tasks = JSON.parse(localStorage.getItem('tasks'));
     displayTasks(); 
